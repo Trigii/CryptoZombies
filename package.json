@@ -1,0 +1,22 @@
+{
+  "name": "cryptozombies",
+  "version": "1.0.0",
+  "description": "This repository contains the consolidated and finalized code of the [cryptozombies.io](https://cryptozombies.io) project.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "dependencies": {
+    "loom-truffle-provider": "^0.13.0",
+    "truffle": "^5.11.5"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}
